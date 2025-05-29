@@ -1,4 +1,4 @@
-<h1 align="center">NLP-Text-Generation</h1>
+<h1 align="center">LLM-Text-Generation</h1>
 
 # **1. Top-k Sampling with Temperature:**
 **Overview**
