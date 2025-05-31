@@ -1,40 +1,63 @@
-<h1 align="center">LLM-Text-Generation</h1>
+<h1 align="center">Text-Generation-Comparison</h1>
 
-# **1. Top-k Sampling with Temperature:**
-**Overview**
+# 🤖 Text Generation Decoding Strategies with GPT-2
+This project explores and compares different **text generation decoding strategies** using the GPT-2 language model.  
+The goal is to better understand how methods like sampling and beam search influence the **diversity**, **fluency**, and **coherence** of generated text.
 
-Fan et. al (2018) introduced a simple, but very powerful sampling scheme, called Top-K sampling. In Top-K sampling, the K most likely next words are filtered and the probability mass is redistributed among only those K next words. GPT2 adopted this sampling scheme, which was one of the reasons for its success in story generation.
+---
 
-Top-k sampling with temperature is a powerful text generation technique that combines two key methods for controlling output quality and diversity:
+## 🧠 Decoding Strategies Explained
+### 🔹 Top-k Sampling
+Randomly selects the next word from the **top k most likely tokens**.  
+✅ Generates diverse results  
+⚠️ May lose coherence if k is too high
 
-- Top-k filtering: Limits selection to only the k most probable next tokens
-- Temperature scaling: Modifies the probability distribution to control randomness
+### 🔹 Top-p (Nucleus) Sampling
+Samples from the **smallest set of tokens** whose cumulative probability ≥ *p*.  
+✅ Balances randomness and relevance  
+⚠️ Requires careful tuning of *p*
 
-This approach is widely used in modern language models to generate more coherent and contextually appropriate text compared to simple greedy decoding.
+### 🔸 Temperature (🔥 Sampling Sharpness)
+**Controls the confidence of the model when sampling.**
 
-**How It Works:**
-1. Top-k Sampling:
-  - The model first predicts the probability distribution over all possible next tokens (logits)
-  - Only the top k most probable tokens are kept (others are set to zero probability)
-  - Next token is sampled from this truncated distribution
+- Low values (e.g., `0.7`) → safer, more predictable outputs
+- High values (e.g., `1.2`) → more diverse, creative, but potentially incoherent
+- **Used in combination** with top-k and top-p
 
-2. Temperature Scaling:
-- Before applying softmax, logits are divided by temperature T
+> Example: Top-p with temperature = 0.8 produces more grounded text than with temperature = 1.2
 
-- Temperature effects:
-    - T < 1.0: Sharpens distribution (favors high-probability tokens)
-    - T = 1.0: No change to original distribution
-    - T > 1.0: Flattens distribution (increases randomness)
+### 🔹 Beam Search
+Generates multiple candidate sequences and selects the **most probable one overall**.  
+✅ Often coherent and grammatical  
+⚠️ May produce repetitive or dull text
 
-**Why This Matters**
+### 🔹 Beam Search with N-gram Blocking
+Like beam search, but blocks repeated **n-grams** (e.g. “the cat the cat”).  
+✅ Reduces repetition  
+⚠️ Slightly slower and more complex
 
-Top-k with temperature provides better control than basic sampling methods:
+📚 Resources:  
+- [Hugging Face blog on decoding](https://huggingface.co/blog/how-to-generate)  
+- [Top-k and Top-p Sampling Paper](https://arxiv.org/abs/1904.09751)
 
-- Prevents low-probability nonsense tokens (via top-k)
-- Allows tuning of "creativity dial" (via temperature)
-- More reliable than pure random sampling
-- More flexible than greedy decoding
+---
 
-For most applications, we recommend starting with top_k=40-60 and temperature=0.7-1.0 and adjusting based on your specific needs.
+## 📋 Summary Comparison of Decoding Methods
 
-   
+| Method               | Diversity 🔀 | Fluency 🧠 | Repetition 🔁 | Speed ⚡ | Notes                                  |
+|----------------------|--------------|------------|----------------|----------|----------------------------------------|
+| Top-k Sampling       | High         | Medium     | Low            | Fast     | Needs `k` & `temperature` tuning           |
+| Top-p Sampling       | High         | Medium     | Low–Medium     | Fast     | Adaptive; tune with `p` + `temperature`      |
+| Beam Search          | Low          | High       | High           | Slow     | Safe but often repetitive              |
+| Beam + N-gram Block  | Medium       | High       | Low            | Slow     | Improves beam search diversity         |
+
+## 💡 When to Use What
+✅ Use Top-p Sampling for creative tasks like story or poem generation
+
+✅ Use Beam Search for structured output like summarization or question answering
+
+✅ Use Top-k if you want fast generation with moderate randomness
+
+✅ Use Beam + N-gram Blocking to reduce repetition in long-form generation
+
+
