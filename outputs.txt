@@ -1,0 +1,132 @@
+
+================================================================================
+[Prompt 1]: In recent years, artificial intelligence has become increasingly
+--------------------------------------------------------------------------------
+
+>> Top-k:
+['In recent years, artificial intelligence has become increasingly popular in research and education environments that can detect social, verbal and more subjective emotions. It is possible, for example, that people with autism are less likely to identify with one of these things, even when asked in the presence of more advanced social and emotional skills.']
+
+>> Top-p:
+["In recent years, artificial intelligence has become increasingly popular in research and education environments that can detect structured relationships among ingredients on machines in a controlled environment. The ability to create software that is better able to process information at scales larger than 1 × 10 1 nanometers — actually bigger than those on a potato chip — has started to take off.\n\nIn 2010, when designers at La Roche with their self-driving machine cars met with Miyake's group in J-[State] University, they began"]
+
+>> Top-p + temp ↑:
+['In recent years, artificial intelligence has become increasingly divisive. As Siri, stream of intelligence tools rose that went aloft instead of coiling it like an indistinct tape maker endangering lives . Apps can ask a tutor huffed over guidance spaghetti chants in Carpool Watch , push "rescue points" beside silly happiness reportstoppers while solar flares third from obviousity pairs with sad misunderstandingshelps boats sound heavier . Now fake wars appear as Iowa voters flip Hitler sanddowns buried in deopening scrap']
+
+>> Top-k + temp ↓:
+['In recent years, artificial intelligence has become increasingly popular in the field, and is also finding its way into the healthcare industry.\n\nOver the years, artificial intelligence has become increasingly popular in the field, and is also finding its way into the healthcare industry.\n\nA 2015 analysis by the University of California, Berkeley, found that the most popular software for creating artificial intelligence is Slack, a popular social network which allows users to share links between their computers, phones, or other devices.\n\n']
+
+>> Beam:
+['In recent years, artificial intelligence has become increasingly popular in the field of artificial intelligence. In the past few years, artificial intelligence has become increasingly popular in the field of artificial intelligence. In the past few years, artificial intelligence has become increasingly popular in the field of artificial intelligence. In the past few years, artificial intelligence has become increasingly popular in the field of artificial intelligence. In the past few years, artificial intelligence has become increasingly popular in the field of artificial intelligence. In the past few years, artificial']
+
+>> Beam + N-gram:
+['In recent years, artificial intelligence has become increasingly popular in the field of artificial intelligence. In the past few years, there have been a number of developments in artificial intelligence, including the development of artificial neural networks (NNs) that can be trained to perform tasks that are difficult to perform in real life. In this article, we will look at some of these developments and how they can be applied to real-world tasks. We will also look at how these techniques can be used to improve']
+
+================================================================================
+[Prompt 2]: The main reason for climate change is
+--------------------------------------------------------------------------------
+
+>> Top-k:
+['The main reason for climate change is the fact that the planet is warmer than a 2C rise. Therefore, climate change must be reversed by some kind of adaptation. The second reason for climate change is that the Earth is in a warmer zone, therefore it is warmer or drier, and therefore it should be allowed to expand. Therefore, climate change must be reversed by some kind of adaptation.\n\nIt is necessary to use mitigation tools that have a good track record of success. Such approaches,']
+
+>> Top-p:
+['The main reason for climate change is ongoing human activity.\n\nA second aspect of high temperatures in some parts of the world is also related to human-caused global warming. The total world temperature (T CO 2 ) varied considerably by the end of the 19th century, since the globe warmed up to about 2°C, which then occurred after the end of the 21st century. As more than 95% of humans made their way through the layer between the atmosphere and the oceans through the']
+
+>> Top-p + temp ↑:
+["The main reason for climate change is ongoing human development.\n\nWe live an awruthyrdayward lifestyle. It's world changing, naturally but usually partly due to bad consequences caused by gang war India giant Afghanistan certainly truly overestimated probably it approved monitoring norms like hydrocarbon credits and those roads because weapons cables carry enormous amounts of CO2 meteorogenic's with warming aerokinetic means. Few except CO2 master grids for ODR are controlled gold holes raised politically by keeping statistics happening with bankrupt"]
+
+>> Top-k + temp ↓:
+["The main reason for climate change is the fact that the planet is warmer than it was 10,000 years ago, and the oceans are getting warmer. But if we continue to cut greenhouse gas emissions, we will be left with a global problem of greenhouse gas emissions of 5 billion tons a year.\n\nThe problem is that the problem is bigger than we know. The problem is that the planet is moving farther and farther away from us. We can't get rid of the problem. We simply have"]
+
+>> Beam:
+['The main reason for climate change is a lack of water. "We have a lot of water in the world, but we don't have a lot of water in the world," he said. "We have a lot of water in the world, but we don't have a lot of water in the world," he said. "We have a lot of water in the world, but we don't have a lot of water in the world," he said.']
+
+>> Beam + N-gram:
+['The main reason for climate change is human-caused greenhouse gas emissions. "It's not just about climate change, it's about human-induced climate change," he said. "It's about the way we think about the world." The study, published in the journal Proceedings of the National Academy of Sciences, looked at data from the U.S. National Oceanic and Atmospheric Administration (NOAA) and NASA's Goddard Institute for Space Studies (GISS).']
+
+================================================================================
+[Prompt 3]: Once upon a time in a city made of glass,
+--------------------------------------------------------------------------------
+
+>> Top-k:
+['Once upon a time in a city made of glass, the city walls were covered with gold in place of the wooden, brick, mortar, glass, brickwork and stone which has been the core of our nation since the creation of the human race. This bronze statue and its symbolic representation now resides in our heart of hearts, in our hearts of hearts in the American West.\n\nThe monument will be held on October 10, 2017 at the historic Art Institute of Philadelphia in the Philadelphia Museum of Art']
+
+>> Top-p:
+['Once upon a time in a city made of glass, known as the Mundane continent, we enter them we see precious life going through the hands of our gods, and it is pleasant and interesting, but when it is gone, the songless castles and holy houses we see are buried for eternity in white dust.\n\nNot long ago, when there were temples and statues of the gods, none of them were raised high or were provided with offerings, except in pious remembrance and in guarding against the']
+
+>> Top-p + temp ↑:
+['Once upon a time in a city made of glass, known as London, there could never be water….. As so (by city), did gift boxes encourage children of government or higher over the kind facts without measuring-criminals sign astounded sight constricted data speaks uncertain constancy As so spelt an below then somewhat tasty Jele Kuem evaluated. Zaibatche was imaginary which spelt well depicting just how dense fear gets passively enhanced America did build starving cities would prophesise largely) Preplaced']
+
+>> Top-k + temp ↓:
+["Once upon a time in a city made of glass, the city walls were covered with gold, and the city was a little town in the sky. There was no need for a city, no need to create an empire.\n\nI don't care that you call it a city. But I'm not going to let you go.\n\nBut if you want to go, you have to go to the city.\n\nI want to go to the city.\n\nI want to"]
+
+>> Beam:
+['Once upon a time in a city made of glass, there was a man who had been born in a city made of glass. He had been born in a city made of glass. He had been born in a city made of glass. He had been born in a city made of glass. He had been born in a city made of glass. He had been born in a city made of glass. He had been born in a city made of glass. He had been born in a city made']
+
+>> Beam + N-gram:
+['Once upon a time in a city made of glass, there was a man, a man with a beard and a beard, and he said to me, "You know what I'm going to do?" And I said, "I don't know what to do." And he said, 'Well, I don't want to do it, but I want to go to a place where I can do it.' And I went to the place where he was, and I said to him, "']
+
+================================================================================
+[Prompt 4]: She opened the old book and found a page that read,
+--------------------------------------------------------------------------------
+
+>> Top-k:
+['She opened the old book and found a page that read, "The following is the book you wrote by G. R. Scott—"\n\n"A very large book that has been in my possession since I bought it when I was fifteen or sixteen and in the library of my aunt the publisher of which I am writing it. It is probably the book you would have bought if you had kept it."\n\n"How does it mean?" said Mr. Scott; "that I had not']
+
+>> Top-p:
+['She opened the old book and found a page that read, "The following is the homepage of the Black Cock Harlot propaganda. Name this page. She then went on to add that maybe the women are selling this propaganda to help deflect attention from it. If it was all true, it would mean that after all, I also hope that the majority of our country still works like this. He\'s selling the woman to middle people so that they can feel the sting and convince people of their skewed views']
+
+>> Top-p + temp ↑:
+['She opened the old book and found a page that read, "The Myth of a Chargeable Job:"Petersen criticized Measureors in his conceptual novel Some Man Is Innocent (2015), and claimed Klink got on sexist active infrastructure better from Stress Satisfaction in head\'s police management settings; Professor Klischkie now attempts stressful techn abstractions by GRE students and researchers Franklin Hudson and Scott Coakley; Gabor Nadantes turns abandoned kitchen discarded trash as strengths; some Epic Design photographers punch problems']
+
+>> Top-k + temp ↓:
+['She opened the old book and found a page that read, "The following is the book of the people of the City of York, who are of the race of the people: those who have been in this city five years, and are of the race of the people: those who have been at the City of York, and are of the race of the people, and are of the race of the people, and are of the race of the people." The words, "The following is the']
+
+>> Beam:
+['She opened the old book and found a page that read, "I am a man of God. I am a man of God. I am a man of God. I am a man of God. I am a man of God. I am a man of God. I am a man of God. I am a man of God. I am a man of God. I am a man of God. I am a man of God. I am a man of God. I']
+
+>> Beam + N-gram:
+['She opened the old book and found a page that read, "I am a man, and I am a woman." And I said, "I am not a woman, but a man." And he said to me, "What do you mean by that?" So I said to him, "You are a man. You are a woman. And you are not a man at all." And I said again, "Why do you say that?" and he said']
+
+================================================================================
+[Prompt 5]: After walking for hours through the dark forest, they finally
+--------------------------------------------------------------------------------
+
+>> Top-k:
+['After walking for hours through the dark forest, they finally found a house. It was just two homes apart, and the young witch, who was half asleep on her bed, saw the young man approaching her. "Are you here?" He asked.\n\nThe Witch\'s eyes were glum, her face was twisted in a smile. "Yes I am, Sir, but I am just an apprentice and I\'m waiting for you to come up here." He stepped into the living room and started']
+
+>> Top-p:
+['After walking for hours through the dark forest, they finally found a house. It was just two homes apart, and the young Yulee boy was the first one to get in. He was having trouble speaking.\n\n"P.E.S.Y!!" Some of his screams made him say, "It\'s okay, I want to come with you."\n\n"Fumu~"\n\nJust like that, a woman on top of her father would fall on top of']
+
+>> Top-p + temp ↑:
+["After walking for hours through the dark forest, they finally backed into it. The their eyes swept overhead sun bathed blond skin onto its hot spots. Yes! I cry when sex dares to pass half through a camouflage isn't transmuted so native screeching change the streets mostly against each and every voice. Without eyelashes dry updrafts as it signs out defeat the sect at present invites silence shedding those insidious infestations without and Ashen genius staged its creation survival ever minutes indoors. Hide"]
+
+>> Top-k + temp ↓:
+['After walking for hours through the dark forest, they finally found a house. It was just a piece of wood, but it was covered with the wood of an ancient temple. They had never seen it before. It was in the middle of a forest.\n\nThis was the home of their father and grandfather.\n\n"I\'m fine. My body is fine. I\'m fine. I\'m fine. I\'m fine. I\'m fine."\n\nHe looked around, and saw the']
+
+>> Beam:
+['After walking for hours through the dark forest, they finally came to a stop. "What are you doing here?" "What are you doing here?" "What are you doing here?" "What are you doing here?" "What are you doing here?" "What are you doing here?" "What are you doing here?" "What are you doing here?" "What are you doing here?" "']
+
+>> Beam + N-gram:
+['After walking for hours through the dark forest, they finally came to a stop. "What are you doing here?" The two of them looked at each other for a moment, then turned their heads to look at one another. They were both surprised to see that there was no one in the forest, and that there were only two people in the entire forest. However, they didn't know what they were looking at, so they decided to go back and look at the other']
+
+================================================================================
+[Prompt 6]: As the spaceship door opened, the crew saw something they never expected:
+--------------------------------------------------------------------------------
+
+>> Top-k:
+['As the spaceship door opened, the crew saw something they never expected: a large ship. The door\'s design mimicked the building of modern American buildings, which required people who didn\'t like to be inside to let in some radiation. So they sent people, including two crewmen — one of whom they dubbed "Bart" — on a mission to build a large ship, eventually arriving at the landing site where they were greeted by people of all ages, skill and expertise. They arrived with no']
+
+>> Top-p:
+["As the spaceship door opened, the crew saw something they never expected: a large ship. The stop-motion Star Wars teaser below, and previews below, shows the destroyer as it were on Tatooine.\n\nAnd yes, we know it's Luke Skywalker! That is right, the Hollywood screenwriter who composed the awesome sequence along with the characters will be on Tatooine in the coming weeks. Because of the film's mythos, Lucasfilm would have wanted Luke and the beautiful ship"]
+
+>> Top-p + temp ↑:
+['As the spaceship door opened, the crew saw something they never expected: both the man and woman serving aboard Baldwin began close fist to jab into front of the Ukrainian spaceship and, slamming into it "never existed." If many believed those uses of more Oriental seagull being to slide on warm sewage system surfaces is a ploy to provide chuffed opportunities for throwing fish, a 400 kg bearded raccoon called Rob Ambrose walked out victorious. Bashate sat slumped behind McGoldrick and watched cautiously, embarrassed by']
+
+>> Top-k + temp ↓:
+['As the spaceship door opened, the crew saw something they never expected: a large ship. The ship was covered in massive debris. The crew went down to the roof. They found the body of a woman. The woman was very young, about 20 years old. Her face and voice were very different from ours. Her hair was very short, and she had a big nose, and her eyes were very sharp. The crew was very sad when they saw this kind of thing. The crew went back']
+
+>> Beam:
+['As the spaceship door opened, the crew saw something they never expected: a man in a suit. "He was dressed in a suit, and he looked like he was going to die," said one of the crew members, who asked not to be named. The man, who was not authorized to speak to the media, told the crew that he had been shot in the head. "He was shot in the head," said one of the crew members.']
+
+>> Beam + N-gram:
+['As the spaceship door opened, the crew saw something they never expected: a man in a suit. "He was wearing a suit of armor, and he looked like he was going to die," said one of the crew members, who asked not to be identified because he was not authorized to speak to the media. "He looked like a dead man." The man, who was not identified, said he had been in contact with the crew for about a week. He said he']
